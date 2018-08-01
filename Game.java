@@ -33,7 +33,7 @@ public class Game {
         outside.setExit("south", study);
         lobby.setExit("west", outside);
         pub.setExit("east", outside);
-        study.setExit("north", bedroom);
+        study.setExit("north", outside);
         study.setExit("east", bedroom);
         bedroom.setExit("west", study);
         lobby.setExit("up", pub);
